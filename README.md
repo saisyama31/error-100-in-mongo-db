@@ -3,15 +3,15 @@ i want to elaborate the issues i got while installing mongodb community server(z
 
 1) i installed mongodb community server for working on my database and i created two folders in c drive in-> user folder -> creted my name folder and added -> two folders named mongodb(i renamed it which is mongodb community server) and mongodb-data for database.
 i typed this command on powershell :: /Users/sai/mongodb/bin/mongod.exe --dbpath=/Users/sai/mongodb-data
-and i didn't get any error and extra-files in my my mongo-db folder...
+and i didn't get any error and extra-files in my my mongo-db folder(error pic::https://github.com/saisyama31/error-100-in-mongo-db/blob/master/extra%20files%20and%20folder.png)
 
 #solution for the above issue
-1) You would want the middle option under the header "Visual Studio 2015, 2017 and 2019" which is "x64: vc_redist.x64.exe".
+1) did a little digging and it seems that dll belongs to Microsoft Visual C ++ Redistributable. I'd recommend download and installing the latest Visual C++ from the official        Microsoft website.you would want the middle option under the header "Visual Studio 2015, 2017 and 2019" which is "x64: vc_redist.x64.exe".
    After reinstalling, try restarting your machine and then restarting MongoDB. Let me know if that works or not.
    
    
 2) after that u will get this error given below
-   to resolve it move the sai folder or ur name folder to public folder in users in c drive as public folder is read/write enabled
+   to resolve it move the sai folder or ur name folder to public folder in users in c drive.
    this will resolve the issue....
    
 
@@ -44,8 +44,10 @@ shutdown"}
 {"t":{"$date":"2020-09-18T17:46:42.020+05:30"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"initandlisten","msg":"Shutting down","attr":{"exitCode":100}}
 
 
-###the above issue will resolve this error too
-https://github.com/saisyama31/error-100-in-mongo-db/upload
+###the above solution will resolve this error too
+
+error is:: failed to conect to localhost:27017 in while working with::ROBO 3T
+error pic::https://github.com/saisyama31/error-100-in-mongo-db/upload
 
 
 
