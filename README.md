@@ -1,13 +1,11 @@
 i want to elaborate the issues i got while installing mongodb community server(zip file not msi)
 ## this issue is only for windows user
 
-1) i installed mongodb community server for working on my database and i created two folders in c drive in-> user-> creted my folder and added -> two folders named mongodb(i renamed it 
-which is mongodb community server) and mongodb-data for database.
+1) i installed mongodb community server for working on my database and i created two folders in c drive in-> user folder -> creted my name folder and added -> two folders named mongodb(i renamed it which is mongodb community server) and mongodb-data for database.
 i typed this command on powershell :: /Users/sai/mongodb/bin/mongod.exe --dbpath=/Users/sai/mongodb-data
-and i did not any error and extra-files in my my mongo-db folder...
+and i didn't get any error and extra-files in my my mongo-db folder...
 
-#if this is the issue with u
-#resolve issue
+#solution for the above issue
 1) You would want the middle option under the header "Visual Studio 2015, 2017 and 2019" which is "x64: vc_redist.x64.exe".
    After reinstalling, try restarting your machine and then restarting MongoDB. Let me know if that works or not.
    
