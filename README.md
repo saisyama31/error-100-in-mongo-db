@@ -47,7 +47,7 @@ shutdown"}
 ###the above solution will resolve this error too
 
 error is:: failed to conect to localhost:27017 in while working with::ROBO 3T
-error pic::https://github.com/saisyama31/error-100-in-mongo-db/upload
+error pic::https://github.com/saisyama31/error-100-in-mongo-db/blob/master/error%20while%20creating%20dolder%20in%20robo%203t.jpeg
 
 
 
